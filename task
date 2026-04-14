@@ -1,0 +1,41 @@
+Python Slicing Tasks
+
+Basic Level
+
+1. `"Python"` → print first 2 characters
+2. `"Python"` → print last 2 characters
+3. `"Python"` → print middle 2 characters
+4. `"Python"` → reverse string using slicing
+5. `"Programming"` → print first 5 characters
+6. `"Programming"` → print last 4 characters
+7. `"HelloWorld"` → skip first 3 characters
+8. `"HelloWorld"` → remove last 3 characters
+9. `"DataScience"` → print every 2nd character
+10. `"MachineLearning"` → print every 3rd character
+
+
+Intermediate Level
+11. `"PythonProgramming"` → reverse only first half
+12. `"PythonProgramming"` → reverse only second half
+13. `"abcdefghij"` → print from index 2 to 8
+14. `"abcdefghij"` → print from index 8 to 2 (reverse order)
+15. `"HelloWorld"` → print alternate characters in reverse
+16. `"1234567890"` → get even index numbers
+17. `"1234567890"` → get odd index numbers
+18. `"OpenAIChatGPT"` → remove first and last character
+19. `"OpenAIChatGPT"` → print center portion only
+20. `"Developer"` → split into two halves using slicing
+
+
+
+Advanced Level
+21. `"PythonIsAwesome"` → reverse words manually using slicing
+22. `"ABCDEFGHIJK"` → reverse in steps of 2
+23. `"123456789"` → print palindrome check using slicing
+24. `"SlicingIsPowerful"` → reverse only vowels position (logic + slicing)
+25. `"FullStackDeveloper"` → swap first half and second half using slicing
+
+
+
+Challenge 
+"abcdefg"` → output: `"gfedcbaabcdefg"` using slicing only
