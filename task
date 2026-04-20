@@ -39,3 +39,88 @@ Advanced Level
 
 Challenge 
 "abcdefg"` → output: `"gfedcbaabcdefg"` using slicing only
+
+
+
+
+
+
+
+LIST TASKS (1–15)
+
+1. Reverse a list using slicing
+2. Get first 5 elements using slicing
+3. Get last 5 elements using slicing
+4. Extract middle 3 elements
+5. Combine two lists without using `+` operator
+6. Remove duplicates using only list + set
+7. Convert list to tuple
+8. Convert list to set
+9. Insert element at index 2
+10. Remove element at index 3
+11. Replace 2nd element with "Python"
+12. Count occurrences of "a" in list
+13. Find index of element "100"
+14. Sort list (ascending)
+15. Reverse sort list (descending)
+
+
+TUPLE TASKS (16–25)
+
+16. Convert tuple to list
+17. Extract first 3 elements
+18. Extract last 2 elements
+19. Reverse tuple using slicing
+20. Find index of element
+21. Count how many times element appears
+22. Convert tuple to set
+23. Merge two tuples
+24. Get alternate elements (index 0,2,4...)
+25. Get reversed alternate elements
+
+
+
+SET TASKS (26–35)
+
+26. Remove duplicates from list using set
+27. Add element to set
+28. Remove element from set
+29. Convert set to list
+30. Convert set to tuple
+31. Find union of two sets
+32. Find intersection of two sets
+33. Find difference between sets
+34. Check length of set
+35. Clear all elements from set
+
+
+DICTIONARY TASKS (36–45)
+
+36. Create dictionary from two lists (keys & values)
+37. Get all keys
+38. Get all values
+39. Convert dict keys to list
+40. Convert dict values to tuple
+41. Update value of a key
+42. Add new key-value pair
+43. Remove a key
+44. Get value using key
+45. Convert dictionary to list of tuples
+
+
+
+MIXED TASKS (46–50)
+
+46. Reverse list and convert to tuple
+47. Remove duplicates and convert to sorted list
+48. Extract even-index elements using slicing
+49. Merge list + tuple → convert to set
+50. Take dictionary → extract values → convert to list → reverse using slicing
+
+---
+
+
+Additional Task
+* `[1,2,3,4,5]` → `[5,4,3,2,1,1,2,3,4,5]`
+* Tuple → reverse → convert → slice middle only
+
