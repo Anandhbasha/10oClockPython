@@ -124,3 +124,102 @@ Additional Task
 * `[1,2,3,4,5]` → `[5,4,3,2,1,1,2,3,4,5]`
 * Tuple → reverse → convert → slice middle only
 
+
+
+Operators Task
+
+
+BASIC OPERATOR TASKS
+
+1. Add two numbers using `+`
+2. Subtract two numbers using `-`
+3. Multiply two numbers using `*`
+4. Divide two numbers using `/`
+5. Find remainder using `%`
+6. Find power using `**`
+7. Floor division using `//`
+
+
+
+INTERMEDIATE TASKS
+
+8. Swap two numbers **without using third variable**
+9. Check if number is even using `%`
+10. Convert Celsius to Fahrenheit using formula
+11. Convert minutes to hours and minutes using operators
+12. Find last digit of a number
+13. Remove last digit of a number
+14. Get first digit of a 3-digit number (using `//`)
+15. Reverse a 2-digit number using operators
+
+
+
+ADVANCED (NO LOOP, PURE OPERATORS LOGIC)
+
+16. Reverse a 3-digit number
+    Example: 123 → 321
+
+17. Sum of digits of a 3-digit number
+    123 → 6
+
+18. Check if a number is palindrome (3-digit only, no loop)
+
+19. Extract:
+
+* last digit
+* middle digit
+* first digit
+
+20. Convert seconds → hours, minutes, seconds
+
+21. Find total marks and percentage (5 subjects)
+
+22. Find simple interest
+    SI = (P * R * T) / 100
+
+23. Area of circle
+    π * r²
+
+24. Convert days → years, weeks, days
+
+---
+
+TRICKY OPERATOR TASKS (GOOD FOR INTERVIEWS)
+
+25. Swap using `^` (bitwise XOR)
+
+26. Check odd/even using bitwise `&`
+
+27. Multiply a number by 2 using bitwise shift
+
+28. Divide a number by 2 using bitwise shift
+
+29. Check if number is positive, negative or zero
+    (Hint: use comparison operators only)
+
+30. Find greatest of two numbers using operators only
+    (No `if`, use logical operators)
+
+
+HARD LEVEL (PURE OPERATOR CHALLENGE)
+
+31. Find greatest of 3 numbers without `if`
+
+32. Check leap year using only operators
+
+33. Minimum of two numbers using formula
+
+34. Check if number is power of 2 using bitwise
+
+
+
+MINI CHALLENGE SET (VERY IMPORTANT)
+
+Try solving without help:
+
+* Reverse 4-digit number using only operators
+* Sum of all digits of 4-digit number
+* Swap first and last digit of number
+* Check Armstrong number (3-digit) using only operators
+* Find second largest among 3 numbers using only operators
+
