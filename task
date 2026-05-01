@@ -2,43 +2,43 @@ Python Slicing Tasks
 
 Basic Level
 
-1. `"Python"` → print first 2 characters
-2. `"Python"` → print last 2 characters
-3. `"Python"` → print middle 2 characters
-4. `"Python"` → reverse string using slicing
-5. `"Programming"` → print first 5 characters
-6. `"Programming"` → print last 4 characters
-7. `"HelloWorld"` → skip first 3 characters
-8. `"HelloWorld"` → remove last 3 characters
-9. `"DataScience"` → print every 2nd character
-10. `"MachineLearning"` → print every 3rd character
+1. "Python" → print first 2 characters
+2. "Python" → print last 2 characters
+3. "Python" → print middle 2 characters
+4. "Python" → reverse string using slicing
+5. "Programming" → print first 5 characters
+6. "Programming" → print last 4 characters
+7. "HelloWorld" → skip first 3 characters
+8. "HelloWorld" → remove last 3 characters
+9. "DataScience" → print every 2nd character
+10. "MachineLearning" → print every 3rd character
 
 
 Intermediate Level
-11. `"PythonProgramming"` → reverse only first half
-12. `"PythonProgramming"` → reverse only second half
-13. `"abcdefghij"` → print from index 2 to 8
-14. `"abcdefghij"` → print from index 8 to 2 (reverse order)
-15. `"HelloWorld"` → print alternate characters in reverse
-16. `"1234567890"` → get even index numbers
-17. `"1234567890"` → get odd index numbers
-18. `"OpenAIChatGPT"` → remove first and last character
-19. `"OpenAIChatGPT"` → print center portion only
-20. `"Developer"` → split into two halves using slicing
+11. "PythonProgramming" → reverse only first half
+12. "PythonProgramming" → reverse only second half
+13. "abcdefghij" → print from index 2 to 8
+14. "abcdefghij" → print from index 8 to 2 (reverse order)
+15. "HelloWorld" → print alternate characters in reverse
+16. "1234567890" → get even index numbers
+17. "1234567890" → get odd index numbers
+18. "OpenAIChatGPT" → remove first and last character
+19. "OpenAIChatGPT" → print center portion only
+20. "Developer" → split into two halves using slicing
 
 
 
 Advanced Level
-21. `"PythonIsAwesome"` → reverse words manually using slicing
-22. `"ABCDEFGHIJK"` → reverse in steps of 2
-23. `"123456789"` → print palindrome check using slicing
-24. `"SlicingIsPowerful"` → reverse only vowels position (logic + slicing)
-25. `"FullStackDeveloper"` → swap first half and second half using slicing
+21. "PythonIsAwesome" → reverse words manually using slicing
+22. "ABCDEFGHIJK" → reverse in steps of 2
+23. "123456789" → print palindrome check using slicing
+24. "SlicingIsPowerful" → reverse only vowels position (logic + slicing)
+25. "FullStackDeveloper" → swap first half and second half using slicing
 
 
 
 Challenge 
-"abcdefg"` → output: `"gfedcbaabcdefg"` using slicing only
+"abcdefg" → output: "gfedcbaabcdefg" using slicing only
 
 
 
@@ -52,7 +52,7 @@ LIST TASKS (1–15)
 2. Get first 5 elements using slicing
 3. Get last 5 elements using slicing
 4. Extract middle 3 elements
-5. Combine two lists without using `+` operator
+5. Combine two lists without using + operator
 6. Remove duplicates using only list + set
 7. Convert list to tuple
 8. Convert list to set
@@ -121,8 +121,11 @@ MIXED TASKS (46–50)
 
 
 Additional Task
-* `[1,2,3,4,5]` → `[5,4,3,2,1,1,2,3,4,5]`
+* [1,2,3,4,5] → [5,4,3,2,1,1,2,3,4,5]
 * Tuple → reverse → convert → slice middle only
+
+
+
 
 
 
@@ -131,25 +134,25 @@ Operators Task
 
 BASIC OPERATOR TASKS
 
-1. Add two numbers using `+`
-2. Subtract two numbers using `-`
-3. Multiply two numbers using `*`
-4. Divide two numbers using `/`
-5. Find remainder using `%`
-6. Find power using `**`
-7. Floor division using `//`
+1. Add two numbers using +
+2. Subtract two numbers using -
+3. Multiply two numbers using *
+4. Divide two numbers using /
+5. Find remainder using %
+6. Find power using 
+7. Floor division using //
 
 
 
 INTERMEDIATE TASKS
 
-8. Swap two numbers **without using third variable**
-9. Check if number is even using `%`
+8. Swap two numbers without using third variable
+9. Check if number is even using %
 10. Convert Celsius to Fahrenheit using formula
 11. Convert minutes to hours and minutes using operators
 12. Find last digit of a number
 13. Remove last digit of a number
-14. Get first digit of a 3-digit number (using `//`)
+14. Get first digit of a 3-digit number (using //)
 15. Reverse a 2-digit number using operators
 
 
@@ -186,9 +189,9 @@ ADVANCED (NO LOOP, PURE OPERATORS LOGIC)
 
 TRICKY OPERATOR TASKS (GOOD FOR INTERVIEWS)
 
-25. Swap using `^` (bitwise XOR)
+25. Swap using ^ (bitwise XOR)
 
-26. Check odd/even using bitwise `&`
+26. Check odd/even using bitwise &
 
 27. Multiply a number by 2 using bitwise shift
 
@@ -198,12 +201,12 @@ TRICKY OPERATOR TASKS (GOOD FOR INTERVIEWS)
     (Hint: use comparison operators only)
 
 30. Find greatest of two numbers using operators only
-    (No `if`, use logical operators)
+    (No if, use logical operators)
 
 
 HARD LEVEL (PURE OPERATOR CHALLENGE)
 
-31. Find greatest of 3 numbers without `if`
+31. Find greatest of 3 numbers without if
 
 32. Check leap year using only operators
 
@@ -223,3 +226,131 @@ Try solving without help:
 * Check Armstrong number (3-digit) using only operators
 * Find second largest among 3 numbers using only operators
 
+
+
+Practice Tasks using only if, if-else, elif
+
+Rule:
+Use only conditions (no loops, no functions)
+
+
+BASIC LEVEL
+
+1. Check if a number is positive or negative
+2. Check if a number is even or odd
+3. If age is 18 or more → "Eligible to vote", else "Not eligible"
+4. Check if a number is greater than 10
+5. Check if a character is a vowel or consonant
+6. If temperature is greater than 30 → "Hot", else "Normal"
+7. If salary is greater than 50000 → "High salary"
+8. Check if marks are pass (>= 35) or fail
+9. Check if a number is zero or non-zero
+10. If username is correct → "Login success", else → "Fail"
+
+
+
+INTERMEDIATE LEVEL
+
+11. Find the largest of 2 numbers
+12. Find the largest of 3 numbers
+13. Check if a year is a leap year or not
+14. Grade system:
+
+* Marks >= 90 → Grade A
+* Marks >= 75 → Grade B
+* Marks >= 50 → Grade C
+* Marks < 50 → Fail
+
+15. Check if a triangle is valid (sum of angles = 180)
+16. Triangle type:
+
+* All sides equal → Equilateral
+* Two sides equal → Isosceles
+* All different → Scalene
+
+17. Check if a number is divisible by both 3 and 5
+18. Electricity bill:
+
+* Units <= 100 → Free
+* Units <= 200 → ₹2 per unit
+* Units > 200 → ₹5 per unit
+
+19. Check if password length is at least 8 characters
+20. Time (0–23):
+
+* 0–11 → Morning
+* 12–17 → Afternoon
+* 18–23 → Night
+
+HARD LEVEL
+
+21. Calculate BMI and print category:
+
+* < 18.5 → Underweight
+* 18.5–24.9 → Normal
+* 25–29.9 → Overweight
+* > = 30 → Obese
+
+22. Student result:
+
+* If all subjects are pass → Pass
+* If any subject fails → Fail
+
+23. Shopping discount:
+
+* Amount > 5000 → 20% discount
+* Amount > 2000 → 10% discount
+* Amount <= 2000 → No discount
+
+24. ATM withdrawal:
+
+* Check if balance is enough
+* Check if amount is valid
+
+25. Login system:
+
+* If username and password are correct → Login success
+
+26. Check if a number is a palindrome
+    (Hint: convert number to string)
+
+27. Day number (1–7):
+
+* 1 → Sunday
+* 2 → Monday
+* ...
+* 7 → Saturday
+
+28. Traffic signal:
+
+* Red → Stop
+* Yellow → Wait
+* Green → Go
+
+29. Movie ticket:
+
+* Age < 12 → Child price
+* Age 12–60 → Normal price
+* Age > 60 → Senior citizen price
+
+30. Banking interest:
+
+* Amount > 1,00,000 → 7%
+* Amount > 50,000 → 5%
+* Amount <= 50,000 → 3%
+
+
+Challenge: FizzBuzz
+Take one number.
+If the number is divisible by both 3 and 5 → print "FizzBuzz"
+If the number is divisible by only 3 → print "Fizz"
+If the number is divisible by only 5 → print "Buzz"
+If the number is not divisible by 3 or 5 → print the number itself
+A number is divisible if:
+
+No remainder (balance) is left
+
+Example:
+
+6 ÷ 3 = 2 (divisible)
+7 ÷ 3 = 2 remainder 1  (not divisible)
