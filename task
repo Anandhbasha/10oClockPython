@@ -402,3 +402,112 @@ ADVANCED LEVEL
 30. Guess the number game (loop until correct guess)
 
 
+for loop
+1.Print numbers from `1 to 100` divisible by both `3 and 5`
+
+2.Find the sum of all even numbers from `1 to 200`
+
+3.Find factorial of a number using `for` loop
+
+4.Reverse a number using `for` loop
+
+5.Count how many digits are present in a number
+
+6.Check whether a number is palindrome or not
+
+7.Check whether a number is Armstrong number
+
+8.Find the largest digit in a number
+
+9.Find the smallest digit in a number
+
+10.Find the sum of digits of a number
+
+11.Print multiplication tables from `1 to 10`
+
+12.Print triangle pattern
+*
+**
+***
+****
+*****
+
+
+13.Print reverse triangle
+*****
+****
+***
+**
+*
+
+14.Print pyramid pattern
+    *
+   ***
+  *****
+ *******
+
+
+15.Print Floyd’s triangle
+1
+2 3
+4 5 6
+7 8 9 10
+
+16.Print all prime numbers from `1 to 100`
+
+17.Check whether a number is prime
+
+18.Print Fibonacci series up to `n` terms
+
+19.Find HCF of two numbers using loop
+
+20.Find LCM of two numbers using loop
+
+21.Count vowels in a string using `for` loop
+
+22.Count uppercase and lowercase letters separately
+
+23.Reverse a string using `for` loop
+
+24.Check whether a string is palindrome
+
+25.Find duplicate characters in a string
+
+26.Print this pattern
+1
+12
+123
+1234
+12345
+
+27.Print this pattern
+5
+54
+543
+5432
+54321
+
+28.Print diamond pattern
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+
+29.Print Pascal Triangle
+
+30.Create a number guessing simulation using only `for` loop with 5 attempts
+
+BONUS EXTREME TASKS
+
+31.Find second largest number in a list using loop
+
+32.Remove duplicates from list manually using loop
+
+33.Sort a list manually using nested `for` loop
+
+34.Print all perfect numbers between `1 to 1000`
+
+35.Find frequency of each character in a string
