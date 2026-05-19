@@ -117,7 +117,7 @@ MIXED TASKS (46–50)
 49. Merge list + tuple → convert to set
 50. Take dictionary → extract values → convert to list → reverse using slicing
 
----
+
 
 
 Additional Task
@@ -185,7 +185,7 @@ ADVANCED (NO LOOP, PURE OPERATORS LOGIC)
 
 24. Convert days → years, weeks, days
 
----
+
 
 TRICKY OPERATOR TASKS (GOOD FOR INTERVIEWS)
 
@@ -517,7 +517,7 @@ BONUS EXTREME TASKS
 functions
 # Python Functions Tasks (Easy → Intermediate)
 
-## Easy Level
+ Easy Level
 
 1. Create a function to print `"Hello World"`.
 
@@ -550,7 +550,7 @@ functions
 
 15. Create a function to find the factorial of a number.
 
----
+
 
 # Intermediate Level
 
@@ -583,3 +583,83 @@ functions
 29. Create a function to find the second largest number in a list.
 
 30. Create a function to create a login system using username and password checking.
+
+
+oop
+
+Beginner Level
+
+ Class and Object
+
+1. Create a class called `Student` and print student name.
+2. Create a class called `Car` and display car brand.
+3. Create a class called `Mobile` and print mobile model.
+4. Create two objects for the same class with different values.
+5. Create a class called `Employee` and display employee salary.
+
+
+
+ Methods
+
+6. Create a method to add two numbers.
+7. Create a method to subtract two numbers.
+8. Create a method to multiply two numbers.
+9. Create a method to divide two numbers.
+10. Create a method to check even or odd number.
+
+
+
+ String Programs
+
+11. Reverse a string using class.
+12. Count vowels in a string.
+13. Convert string into uppercase.
+14. Check palindrome string.
+15. Count total characters in string.
+
+
+
+ Number Programs
+
+16. Find factorial of a number.
+17. Print Fibonacci series.
+18. Check prime number.
+19. Find sum of digits.
+20. Reverse a number.
+
+
+
+ Intermediate Level
+
+ Single Inheritance
+
+21. Create `Animal` parent class and `Dog` child class.
+22. Create `Vehicle` parent class and `Bike` child class.
+23. Create `Person` parent class and `Student` child class.
+
+
+
+ Multilevel Inheritance
+
+24. Create `Animal → Dog → Puppy`.
+25. Create `Vehicle → Car → SportsCar`.
+
+
+
+ Hierarchical Inheritance
+
+26. Create `Animal` class for `Dog` and `Cat`.
+27. Create `Shape` class for `Circle` and `Rectangle`.
+
+
+
+ Encapsulation
+
+28. Create private variable `__salary`.
+29. Access private variable using method.
+
+
+
+Hard Level
+
+30. Create a simple Student Management System using OOP.
