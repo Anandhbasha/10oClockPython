@@ -511,3 +511,75 @@ BONUS EXTREME TASKS
 34.Print all perfect numbers between `1 to 1000`
 
 35.Find frequency of each character in a string
+
+
+
+functions
+# Python Functions Tasks (Easy → Intermediate)
+
+## Easy Level
+
+1. Create a function to print `"Hello World"`.
+
+2. Create a function that takes a name and prints:
+   `"Welcome <name>"`
+
+3. Create a function to add two numbers and print the result.
+
+4. Create a function to find the square of a number.
+
+5. Create a function to find the cube of a number.
+
+6. Create a function to check whether a number is even or odd.
+
+7. Create a function to find the biggest of two numbers.
+
+8. Create a function to print numbers from 1 to 10 using a loop.
+
+9. Create a function to calculate the area of a rectangle.
+
+10. Create a function to calculate the perimeter of a square.
+
+11. Create a function that returns the multiplication table of a number.
+
+12. Create a function to count the number of vowels in a word.
+
+13. Create a function to reverse a string.
+
+14. Create a function to check whether a string is palindrome or not.
+
+15. Create a function to find the factorial of a number.
+
+---
+
+# Intermediate Level
+
+16. Create a function to find the sum of all elements in a list.
+
+17. Create a function to find the largest number in a list.
+
+18. Create a function to count how many times a character appears in a string.
+
+19. Create a function to remove duplicate values from a list.
+
+20. Create a function to sort a list in ascending order.
+
+21. Create a function to check whether a year is a leap year.
+
+22. Create a function to generate Fibonacci series up to `n` numbers.
+
+23. Create a function that accepts unlimited numbers using `*args` and returns the sum.
+
+24. Create a function to calculate simple interest.
+
+25. Create a function that returns both quotient and remainder.
+
+26. Create a function to check whether a number is prime.
+
+27. Create a function to count uppercase and lowercase letters in a string.
+
+28. Create a function that converts Celsius to Fahrenheit.
+
+29. Create a function to find the second largest number in a list.
+
+30. Create a function to create a login system using username and password checking.

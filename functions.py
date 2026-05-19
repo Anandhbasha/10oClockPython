@@ -63,8 +63,11 @@
 
 # lamda functions
 
-square = lambda x: x**x
-print(square(2))
+# square = lambda x: return x**x
+# print(square(2))
 
-square = lambda x,y: x+y
-print(square(2,4))
+# square = lambda x,y: x+y
+# print(square(2,4))
+
+def square(x):
+    return x*x
