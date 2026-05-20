@@ -121,25 +121,134 @@
 # s.prints()
 
 # Hyrarchical inheritance
-class School:
-    def schoolName(self):
-        print("ABC School")
-class Student(School):
-    pass
-class Teacher(School):
-    pass
-class Principal(School):
-    pass
+# class School:
+#     def schoolName(self):
+#         print("ABC School")
+# class Student(School):
+#     pass
+# class Teacher(School):
+#     pass
+# class Principal(School):
+#     pass
 
-s = Student()
-t = Teacher()
-p = Principal()
-s.schoolName()
-t.schoolName()
-p.schoolName()
+# s = Student()
+# t = Teacher()
+# p = Principal()
+# s.schoolName()
+# t.schoolName()
+# p.schoolName()
 # Hybrid inheritance
-# # polymorphism
-# # constructor
-# # composition
-# # abstraction
+    # Simple and mutilevel
+#     # multilevel and hyrarchiacal
+# class School:
+#     def schoolName(self):
+#         print("School name is ABC")
+# class Student(School):
+#     pass
+# class Teachers(School):
+#     pass
+# class library(School):
+#     pass
+# class allPerson(library):
+#     pass
+
+# s1 = Student()
+# T1 = Teachers()
+# a = allPerson()
+# a.schoolName()
 # multiple inheritance
+# class Dad:
+#     def Property(self):
+#         print("Dad have House")
+# class Mom:
+#     def Proerties(self):
+#         print("Mom have gold and silver")
+# class Son(Dad,Mom):
+#     pass
+
+# S = Son()
+# S.Proerties()
+# S.Property()
+
+# # constructor
+
+# class Students:
+#     def __init__(self):
+#         print("The students are Learning Python Oop")
+# s1 =Students()
+# # polymorphism
+    # Method overloading
+# class Calculator:
+#     def add(self,a=0,b=0,c=0):
+#         print(a+b+c)
+    
+# calc = Calculator()
+# calc.add(10,20,40)
+# calc.add(10,20)
+# calc.add(10)
+    # method overridding
+class Payment:
+    def pay(self):
+        print("Pay The Payment")
+class Gpay(Payment):
+    def pay(self):
+        print("Pay The Payment via Gpay")
+class PhonePe(Payment):
+     def pay(self):
+        print("Pay The Payment via PhonePe")
+class Cash(Payment):
+     def pay(self):
+        print("Pay The Payment via Cash")
+
+G = Gpay()
+P = PhonePe()
+C = Cash()
+Pn = Payment()
+G.pay()
+P.pay()
+C.pay()
+Pn.pay()
+
+
+# abstraction
+
+from abc import ABC,abstractmethod
+class Loan(ABC):
+    @abstractmethod
+    def intrest(self):
+        pass
+class SBI(Loan):
+    def intrest(self):
+        print("SBI offered me a loan for 8% Intrest rate")
+class HDBC(Loan):
+    def intrest(self):
+        print("HDBC offered me a loan for 6% Intrest rate")
+
+H =HDBC()
+S = SBI()
+H.intrest()
+S.intrest()
+# # composition
+class Engine:
+    def Start(self):
+        print("Engine Starts")
+class Car:
+    def __init__(self):
+        self.engine = Engine()
+    def drive(self):
+        self.engine.Start()
+        print("Car is moving")
+c= Car()
+c.drive()
+
+# operator overloading
+
+class Students:
+    def __init__(self,marks):
+        self.marks = marks
+    def __add__(self,other):
+        return self.marks+other.marks
+    
+s1 = Students(80)
+s2 = Students(70)
+print(s1+s2)
