@@ -47,6 +47,32 @@ def getStudent(id):
         if stu["id"] ==id:
             return jsonify(stu)
     return jsonify({"Message":"Student Not found"})
+
+
+@app.route("/stuEdit/<int:id>",methods =["PUT"])
+def updateStudent(id):
+    for stu in students:
+        if stu["id"] == id:
+            data = request.json
+            stu["name"] = data ["name"]
+            stu["age"] = data ["age"]
+            return jsonify({
+                "message":"Student Updated",
+                "data":stu
+            })
+    return jsonify({"message":"Student no found"})
+
+
+@app.route("/stuDelete/<int:id>",methods =["DELETE"])
+def deleteStudent(id):
+    for stu in students:
+        if stu["id"] == id:
+            students.remove(stu)
+            return jsonify({
+                "message":"Student Deleted",
+            })
+    return jsonify({"message":"Student no found"})
+
 if __name__ =="__main__":
     app.run(debug=True)
     
